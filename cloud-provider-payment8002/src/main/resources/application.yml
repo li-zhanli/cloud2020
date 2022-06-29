@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -18,7 +18,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
   instance:
-    hostname: payment8001
+    hostname: payment8002
     prefer-ip-address: true
 #          设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
 #          defaultZone: http://localhost:7001/eureka #单机版

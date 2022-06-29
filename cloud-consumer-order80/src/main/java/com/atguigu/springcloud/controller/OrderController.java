@@ -8,7 +8,8 @@ import org.springframework.web.client.RestTemplate;
 import javax.annotation.Resource;
 @RestController
 public class OrderController {
-    public static final String PAYMENT_URL = "http://localhost:8001";
+//    private static final String PAYMENT_URL = "http://localhost:8001";
+    private static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Resource
     private RestTemplate restTemplate;

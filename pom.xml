@@ -8,13 +8,14 @@
     <artifactId>cloud2020</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>cloud-provider-com.atguigu.cloud.payment8001</module>
+        <module>cloud-provider-com.atguigu.cloud.payment8002</module>
         <module>cloud-provider-payment8001</module>
         <module>cloud-consumer-order80</module>
         <module>cloud-api-commons</module>
         <module>cloud-eureka-server-7001</module>
         <module>cloud-eureka-7002</module>
         <module>cloud-eureka-server-7002</module>
+        <module>cloud-provider-payment8002</module>
     </modules>
     <packaging>pom</packaging>
 
